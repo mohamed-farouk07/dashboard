@@ -30,8 +30,8 @@ const Sidebar = () => {
   return (
     <Box
       sx={{
-        width: 90,
-        height: "100vh",
+        width: 250,
+        height: "auto",
         backgroundColor: "#5155C3",
         color: "#fff",
         display: "flex",
