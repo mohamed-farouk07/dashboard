@@ -387,7 +387,7 @@ const Dashboard = () => {
               sx={{
                 mb: 3,
                 backgroundColor: "#fff",
-                border: "1px solid #5155C3",
+                border: "1px solid transparent",
                 borderRadius: "20px",
                 "& .MuiOutlinedInput-root": {
                   borderRadius: "20px",
