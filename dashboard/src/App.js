@@ -5,7 +5,7 @@ import { Box } from '@mui/material';
 
 function App() {
   return (
-    <Box sx={{ display: 'flex' }}>
+    <Box sx={{ display: 'flex', backgroundColor: "#ECEDFF" }}>
       <Sidebar />
       <Dashboard />
     </Box>
