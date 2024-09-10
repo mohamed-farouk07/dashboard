@@ -9,7 +9,7 @@ const LinearProgressCard = () => (
         sx={{
           height: "15px",
           borderRadius: "5px",
-          background: "#fff", // Background color of the track
+          background: "#fff",
           position: "absolute",
           top: 0,
           left: 0,
@@ -25,8 +25,8 @@ const LinearProgressCard = () => (
           position: "absolute",
           top: 0,
           left: 0,
-          width: "30%", // Adjust this width as needed
-          backgroundColor: "#ff6f61", // First color segment
+          width: "30%",
+          backgroundColor: "#ff6f61",
         }}
       />
       <Box
@@ -35,12 +35,11 @@ const LinearProgressCard = () => (
           borderRadius: "5px",
           position: "absolute",
           top: 0,
-          left: "30%", // Adjust this position as needed
-          width: "30%", // Adjust this width as needed
-          backgroundColor: "#5155C3", // Second color segment
+          left: "30%",
+          width: "30%",
+          backgroundColor: "#5155C3",
         }}
       />
-      {/* Add more segments as needed */}
     </Box>
   </Paper>
 );

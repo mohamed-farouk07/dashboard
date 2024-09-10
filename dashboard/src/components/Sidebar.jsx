@@ -53,7 +53,7 @@ const Sidebar = () => {
           justifyContent: "center",
           alignItems: "center",
           marginBottom: "auto",
-          width: '100%', // Make List take full width
+          width: '100%',
         }}
       >
         <ListItemButton
@@ -62,7 +62,7 @@ const Sidebar = () => {
           sx={{
             justifyContent: "center",
             mb: "15px",
-            width: '100%', // Make each ListItemButton take full width
+            width: '100%',
             "&:hover": {
               backgroundColor: "#3F44B5",
             },
@@ -90,7 +90,7 @@ const Sidebar = () => {
           sx={{
             justifyContent: "center",
             mb: "15px",
-            width: '100%', // Make each ListItemButton take full width
+            width: '100%',
             "&:hover": {
               backgroundColor: "#3F44B5",
             },
@@ -118,7 +118,7 @@ const Sidebar = () => {
           sx={{
             justifyContent: "center",
             mb: "15px",
-            width: '100%', // Make each ListItemButton take full width
+            width: '100%',
             "&:hover": {
               backgroundColor: "#3F44B5",
             },
@@ -146,7 +146,7 @@ const Sidebar = () => {
           sx={{
             justifyContent: "center",
             mb: "15px",
-            width: '100%', // Make each ListItemButton take full width
+            width: '100%',
             "&:hover": {
               backgroundColor: "#3F44B5",
             },
@@ -174,7 +174,7 @@ const Sidebar = () => {
           sx={{
             justifyContent: "center",
             mb: "15px",
-            width: '100%', // Make each ListItemButton take full width
+            width: '100%',
             "&:hover": {
               backgroundColor: "#3F44B5",
             },
@@ -202,15 +202,15 @@ const Sidebar = () => {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          width: '100%', // Make List take full width
-          paddingBottom: '16px', // Add some padding to the bottom
+          width: '100%',
+          paddingBottom: '16px',
         }}
       >
         <ListItemButton
-          onClick={() => handleListItemClick(5)} // You can handle this click event as needed
+          onClick={() => handleListItemClick(5)}
           sx={{
             justifyContent: "center",
-            width: '100%', // Make each ListItemButton take full width
+            width: '100%',
             "&:hover": {
               backgroundColor: "#3F44B5",
             },
@@ -228,7 +228,7 @@ const Sidebar = () => {
               },
             }}
           >
-            <LogoutIcon /> {/* Use the Logout icon */}
+            <LogoutIcon />
           </ListItemIcon>
         </ListItemButton>
       </List>

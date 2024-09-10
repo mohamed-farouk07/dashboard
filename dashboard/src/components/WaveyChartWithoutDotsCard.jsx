@@ -41,37 +41,37 @@ const wavyLineChartNoDotsOptions = {
   responsive: true,
   plugins: {
     legend: {
-      display: true, // Hide the legend if you don't need it
+      display: true,
       position: "bottom",
     },
     tooltip: {
       callbacks: {
         label: (tooltipItem) => {
-          return tooltipItem.raw; // Customize tooltip content if needed
+          return tooltipItem.raw;
         },
       },
     },
   },
   elements: {
     line: {
-      borderColor: "#5155C3", // Line color
-      borderWidth: 2, // Line width
-      tension: 0.4, // Adjust the line curve
+      borderColor: "#5155C3",
+      borderWidth: 2,
+      tension: 0.4,
     },
     point: {
-      radius: 0, // Set radius to 0 to hide dots
-      hitRadius: 0, // Optional: Set to 0 to prevent interactions with points
+      radius: 0,
+      hitRadius: 0,
     },
   },
   scales: {
     x: {
       grid: {
-        display: true, // Hide grid lines if needed
+        display: true,
       },
     },
     y: {
       grid: {
-        display: true, // Hide grid lines if needed
+        display: true,
       },
     },
   },

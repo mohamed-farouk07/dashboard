@@ -34,7 +34,7 @@ const doughnutOptions = {
       enabled: true,
     },
   },
-  cutout: "70%", // Creates the doughnut effect
+  cutout: "70%",
   responsive: true,
   maintainAspectRatio: false,
 };
